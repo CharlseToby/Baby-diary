@@ -1,0 +1,188 @@
+.header{
+  text-align: center;
+  .header-top{
+    color: #7A7D85;
+    margin: 0 auto;
+    .header-top_input-wrapper{
+      padding: 8px 0;
+      border: 1px solid #E4E5E7;
+      .header-top_input{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: flex-end;
+        align-items: center;
+        // justify-content: space-between;
+        // max-width: 1200px;
+  
+        .search{
+          border: 1px solid #E8E8EA;
+          border-radius: 5px;
+          // position: relative;
+          width: 401px;
+          height: 35px;
+          margin: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          div{
+            flex-grow: 2;
+            display: flex;
+            align-items: center;
+            color: #7A7D85;
+  
+            img{
+              margin-left: 5px;
+              margin-right: 5px;
+              // position: absolute;
+              // left: 7px;
+              // top: 9px;
+    
+            }
+            input{
+              border: none;
+              outline: none;
+              width: 100%;
+            }
+          }
+  
+          .search-btn{
+            justify-self: flex-end;
+            border: none;
+            outline: none;
+            height: 100%;
+            color: #fff;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            padding-left: 20px;
+            padding-right: 19px;
+            // border-radius: 5px;
+            background-color: #ED6FAB;
+            border-radius: 0px 5px 5px 0px;
+          }
+        }
+        .sign-up{
+          display: flex;
+          color: #7A7D85;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          align-items: center;
+          justify-content: space-between;
+          // padding-right: 15px;
+          p{
+            padding: 5px 20px;
+            cursor: pointer;
+          }
+          button{
+            border: none;
+            outline: none;
+            height: 35px;
+            color: #fff;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            padding-left: 20px;
+            padding-right: 19px;
+            // border-radius: 5px;
+            background-color: #ED6FAB;
+            border-radius: 5px;
+  
+          }
+        }
+      }
+    }
+    .header-top_nav{
+      max-width: 1200px;
+      margin: 0 auto;
+      ul{
+        // margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          cursor: pointer;
+
+        }
+      }
+    }
+  }
+  .header-banner{
+    height: 642px;
+    position: relative;
+    overflow: hidden;
+    .header-banner_bg{
+      margin: 0;
+      padding: 0;
+      top: 0;
+      right: 0;
+      position: absolute;
+      height: 100%;
+      z-index: -1;
+      .img-bg{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .header-banner_text{
+      color: #fff;
+      text-align: left;
+      height: 642px;
+      background-color: rgba(0, 0, 0, 0.45);
+      display: flex;
+      align-items: center;
+
+      div{
+        max-width: 600px;
+        padding-left: 50px;
+
+        h2{
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 59px;
+        }
+        p{
+          font-size: 18px;
+          line-height: 30px;
+        }
+        .btn{
+          width: 136px;
+          height: 47px;
+          // background: #ED6FAB;
+          border-radius: 6.71429px;
+          outline: none;
+          border: none;
+          margin-right: 20px;
+        }
+        .btn-start{
+          @extend .btn;
+          background-color: #ED6FAB;
+          color: #fff
+        }
+        .btn-sign{
+          @extend .btn;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .header-pregnancy{
+    padding-bottom: 35px;
+    h1{
+      padding-top: 25px;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 30px;  
+      color: #A0A0A0;
+    }
+    img{
+      width: 100%;
+    }
+  }
+}

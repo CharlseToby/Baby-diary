@@ -1,0 +1,330 @@
+.body{
+  box-sizing: border-box;
+  padding-bottom: 100px;
+  .baby-looks{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgba(255, 228, 241, 0.29);
+    .baby-looks-contain{
+      display: flex;
+      justify-content: space-between;    
+      max-width: 1240px;
+      margin: 0 auto;
+      .baby-looks_text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        // align-content: flex-start;
+        h2{
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 59px;
+          color: #454545;
+        }
+        .baby-looks_text_btns{
+          display: flex;
+          justify-content: flex-start;
+
+          .btn {
+            width: 136px;
+            height: 47px;
+            // background: #ED6FAB;
+            border-radius: 6.71429px;
+            outline: none;
+            border: none;
+            margin-right: 20px;
+          }
+          
+          .btn1 {
+            @extend .btn;
+            background-color: #ED6FAB;
+            color: #fff
+          }
+          
+          .btn2 {
+            @extend .btn;
+            background-color: #fff;
+          }
+        }
+      }
+      .baby-looks_img{
+        position: relative;
+        .babylooks{
+          width: 587px;
+          height: 302px;
+        }
+        .playicon{
+          position: absolute;
+          top: 114px;
+          right: 270px;
+        }
+      }
+    }
+  }
+  .advice-and-ansers{
+    // height: 500px;
+    min-height: 560px;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2{
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 30px; 
+      color: #242424;
+    }
+    .advice-and-ansers_cards{
+      display: flex;
+      justify-content: space-between;
+      // min-height: 500px;
+
+      .card{
+        position: relative;
+        color: #fff;
+        height: 380px;
+        .img{
+          position: absolute;
+          z-index: -1;
+        }
+        .card-content{
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.28);
+          border-radius: 15px;
+
+          h3{
+            position: absolute;
+            top: 0;
+            left: 15px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+  .explore-tools{
+    margin: 0 auto;
+    max-width: 1240px;
+    h2{
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 30px;
+      color: #242424;
+    }
+    .explore-tools_cards{
+      padding: 70px 0;
+      margin-bottom: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 12px;
+      row-gap: 55px;
+      justify-content: center;
+      .tools-item{
+        text-align: center;
+        position: relative;
+        .tools-item-img{
+          padding-bottom: 16px;
+        }
+        hr{
+          width: 60px;
+        }
+        p{
+          padding-top: 11px;
+        }
+        .tools-item-dot{
+          position: absolute;
+          top: -9px;
+          right: 120px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+  .diary-videos{
+    // padding: 64px 100px 85px;
+    padding-top: 64px;
+    padding-bottom: 78px;
+    height: 456px;
+    background: #4B8FC0;
+    .diary-videos_content{
+      max-width: 1240px;
+      margin: 0 auto;
+      color: #fff;
+      .diary-videos_content-logo{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+      }
+      .diary-videos_content_header{
+        display: flex;
+        justify-content: space-between;
+        h2{
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 30px;
+          margin: 10px 0;
+        }
+        .btn{
+          width: 178px;
+          height: 47px;
+          color: #000;
+          background-color: #FFFFFF;
+          border-radius: 6.71429px;
+          outline: none;
+          border: none;
+        }
+      }
+      .diary-videos_content_cards{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 5px;
+
+        .card{
+          .img{
+            position: relative;
+            .card-bg{
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 292px;
+              height: 160px;
+              border-radius: 10px;
+              background-color: rgba(0, 0, 0, 0.28);
+              // z-index: 99;
+            }
+            .play{
+              position: absolute;
+              top: 50px;
+              right: 130px;
+            }
+          }
+          .card-content{
+            padding: 2px;
+            display: flex;
+            justify-content: space-between;
+            h3{
+              margin: 0;
+            }
+            p{
+              margin: 0;
+              color: rgba(255, 255, 255, 0.4);
+            }
+          }
+        }
+      }
+    }
+  }
+  .testimony{
+    max-width: 1240px;
+    padding-top: 93px;
+    padding-bottom: 93px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    .testimony-left{
+      text-align: left;
+      display: flex;
+      gap: 37px;
+      align-items: center;
+      .testimony-text{
+        p{
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 30px;
+        }
+        h3{
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 30px;
+          color: #989898;
+        }
+      }
+    }
+    .testimony-img{
+      text-align: right;
+    }
+  }
+  .diary-blog{
+    max-width: 1240px;
+    min-height: 360px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    h2{
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 30px; 
+      color: #242424;
+    }
+    .diary-blog_cards{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      .card{
+        .card-content{
+          h3{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            margin: 0;
+          }
+          p{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 30px;
+            margin: 0;
+            color: rgba(0, 0, 0, 0.4);
+          }
+        }
+      }
+    }
+  }
+  .app{
+    margin: 0 auto;
+    max-width: 1240px;
+    height: 279px;
+    border-radius: 17px;
+    background-color: #FFF7FB;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding-left: 79px;
+    .app-text{
+      h3{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 30px;
+        color: #332323;
+        margin: 8px 0;
+      }
+      p{
+        font-size: 18px;
+        line-height: 30px; 
+        color: #332323;
+        margin: 15px 0;
+      }
+      .app-text_logo{
+        display: flex;
+        gap: 12px;
+      }
+    }
+
+    .phone-light{
+      position: absolute;
+      bottom: 45px;
+      right: 104px;
+    }
+    .phone-dark{
+      position: absolute;
+      top: 45px;
+      right: 340px;
+    }
+    
+  }
+}
