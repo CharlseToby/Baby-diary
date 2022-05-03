@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Baby-diary/static/css/main.035c4d53.css",
-    "main.js": "/Baby-diary/static/js/main.bd5f81ea.js",
+    "main.css": "/Baby-diary/static/css/main.962fce6b.css",
+    "main.js": "/Baby-diary/static/js/main.3eee1cdb.js",
     "static/js/787.9e32fc62.chunk.js": "/Baby-diary/static/js/787.9e32fc62.chunk.js",
     "static/media/banner.svg": "/Baby-diary/static/media/banner.6cfb767af5c5e28fe5287e5a135045b9.svg",
     "static/media/safe.svg": "/Baby-diary/static/media/safe.1966e753843e3e65457907ca720ba8d3.svg",
@@ -20,6 +20,7 @@
     "static/media/footerlogo2.svg": "/Baby-diary/static/media/footerlogo2.869591457ae377e2b901f9e87c6c37f0.svg",
     "static/media/babydiarylogo2.svg": "/Baby-diary/static/media/babydiarylogo2.6f2cb6f32deb20e1acfead8507153783.svg",
     "static/media/applestore.svg": "/Baby-diary/static/media/applestore.82eb21f32785d97fb16683be5d27ada5.svg",
+    "static/media/ourtestimonials.svg": "/Baby-diary/static/media/ourtestimonials.25952156d5a08dad64b32cf412596760.svg",
     "static/media/googleplay.svg": "/Baby-diary/static/media/googleplay.5568f01ec15c94cda67fc762faf48783.svg",
     "static/media/immunization.svg": "/Baby-diary/static/media/immunization.bf9cd83cfc9e4a169c0e272bc377bfa1.svg",
     "static/media/footerlogo1.svg": "/Baby-diary/static/media/footerlogo1.8a4a9c9287a58fda320f64337f02500f.svg",
@@ -32,19 +33,20 @@
     "static/media/playicon.svg": "/Baby-diary/static/media/playicon.d58ce55028092cdb6375e6347bdd6d30.svg",
     "static/media/memories.svg": "/Baby-diary/static/media/memories.f96694fa2fb8435461337533e15be8ea.svg",
     "static/media/twitterlogo.svg": "/Baby-diary/static/media/twitterlogo.6446e0a285b0174881dc868690bef529.svg",
+    "static/media/arrowleft.svg": "/Baby-diary/static/media/arrowleft.5b67849ea5be83c24a8a4aab049256f7.svg",
+    "static/media/arrowright.svg": "/Baby-diary/static/media/arrowright.476bfdb012673a5db4419e74f0c39654.svg",
     "static/media/contractiontimer.svg": "/Baby-diary/static/media/contractiontimer.dad4f62251d5d7048e49737888e70df9.svg",
     "static/media/mlogo.svg": "/Baby-diary/static/media/mlogo.57dd44ef2adec6367d8003c7e52880a9.svg",
     "index.html": "/Baby-diary/index.html",
     "static/media/facebooklogo.svg": "/Baby-diary/static/media/facebooklogo.6651044b33504307d2d470eee9d76845.svg",
     "static/media/search.svg": "/Baby-diary/static/media/search.a80d3ebc83b0a09149c6015ee293e58e.svg",
-    "static/media/arrow.svg": "/Baby-diary/static/media/arrow.60559adb9be4f07cff158385722ab573.svg",
     "static/media/toolsdot.svg": "/Baby-diary/static/media/toolsdot.8e6b18af878fbad75b53ab8bfab140b2.svg",
-    "main.035c4d53.css.map": "/Baby-diary/static/css/main.035c4d53.css.map",
-    "main.bd5f81ea.js.map": "/Baby-diary/static/js/main.bd5f81ea.js.map",
+    "main.962fce6b.css.map": "/Baby-diary/static/css/main.962fce6b.css.map",
+    "main.3eee1cdb.js.map": "/Baby-diary/static/js/main.3eee1cdb.js.map",
     "787.9e32fc62.chunk.js.map": "/Baby-diary/static/js/787.9e32fc62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.035c4d53.css",
-    "static/js/main.bd5f81ea.js"
+    "static/css/main.962fce6b.css",
+    "static/js/main.3eee1cdb.js"
   ]
 }
