@@ -219,6 +219,7 @@
     }
   }
   .testimony{
+    position: relative;
     max-width: 1240px;
     padding-top: 93px;
     padding-bottom: 93px;
@@ -226,10 +227,29 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    .testimony-arrow-left{
+      position: absolute;
+      top: 186px;
+      left: -20px;
+      cursor: pointer;
+    }
+    .testimony-arrow-right{
+      position: absolute;
+      top: 186px;
+      right: -38px;
+      cursor: pointer;
+    }
+    .testimony-bg{
+      position: absolute;
+      left: 66px;
+      top: 135px;
+    }
     .testimony-left{
       text-align: left;
       display: flex;
       gap: 37px;
+      padding-left: 70px;
+      padding-top: 40px;
       align-items: center;
       .testimony-text{
         p{

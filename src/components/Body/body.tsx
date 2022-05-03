@@ -12,7 +12,9 @@ import phonelight from '../../assets/phonelight.svg'
 import phonedark from '../../assets/phonedark.svg'
 import applestore from '../../assets/applestore.svg'
 import googleplay from '../../assets/googleplay.svg'
-import arrow from '../../assets/arrow.svg'
+import arrowleft from '../../assets/arrowleft.svg'
+import arrowright from '../../assets/arrowright.svg'
+import ourtestimonials from '../../assets/ourtestimonials.svg'
 
 
 const Body = () => {
@@ -133,8 +135,16 @@ const Body = () => {
         </div>
       </div>
       <div className={styles['testimony']}>
+        <div className={styles['testimony-arrow-left']}>
+          <img src={arrowleft} alt="" />
+        </div>
+        <div className={styles['testimony-arrow-right']}>
+          <img src={arrowright} alt="" />
+        </div>
+        <div className={styles['testimony-bg']}>
+          <img src={ourtestimonials} alt="" />
+        </div>
         <div className={styles['testimony-left']}>
-          <img src={arrow} alt="" />
           <div className={styles['testimony-text']}>
             <p>Love this app! I've been using it since I found out I was pregnant. My daughter is now 8 months old, and I still rely on the information provided. I would be lost without it.</p>
             <h3>Oyinkansola Salami</h3>
