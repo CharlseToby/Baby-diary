@@ -1,6 +1,15 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Link to Live site: https://charlsetoby.github.io/Baby-diary/
+
+Technologies used: Typescript, SCSS, React
+
+With the project, I learnt how to Implement User Interface with typescript on React, when given a figma file.
+
+
+
+
+
 
 ## Available Scripts
 
